@@ -10,7 +10,7 @@ const MessageForm = () => {
     const [messageInput, setMessageInput] = useState("");
 
     const addMessage = () => {
-        fetch("http://localhost:1234/messages", {
+        fetch("https://global-chat-api.onrender.com/messages", {
             method: "post",
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify({
