@@ -1,0 +1,50 @@
+.scrollable-div-container {
+    height: calc(100vh - 80px - 6em);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scrollable-div {
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 75%;
+    height: 80%;
+    scroll-behavior: smooth;
+}
+
+.message-container {
+    margin: 1em;
+    padding: 1px 1em;
+    width: fit-content;
+    background-color: rgb(255, 255, 255);
+    max-width: 70%;
+    overflow-wrap: break-word;
+}
+
+.pre-message {
+    margin-top: 0.5em;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    white-space: pre-wrap;
+}
+
+.publisher {
+    font-size: 0.9em;
+    margin: 0;
+    width: fit-content;
+    border-bottom: 3px solid rgb(82, 0, 196);
+}
+
+.reload-button {
+    border-radius: 5px;
+    background-color: rgb(175, 111, 234);
+    transition: all 0.2s;
+    margin-bottom: 3%;
+}
+.reload-button:hover {
+    background-color: rgb(102, 0, 255);
+}
+.reload-button:active {
+    background-color: rgb(78, 0, 195);
+}

@@ -1,0 +1,34 @@
+.blackish-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(33, 36, 36);
+}
+
+.very-bottom {
+    width: 100%;
+    height: 6em;
+    position: fixed;
+    bottom: 0;
+}
+
+.send-button {
+    border-radius: 0 10px 10px 0;
+    width: 70px;
+    height: 57px;
+    background-color: rgb(175, 111, 234);
+    transition: all 0.2s;
+}
+.send-button:hover {
+    background-color: rgb(102, 0, 255);
+}
+.send-button:active {
+    background-color: rgb(78, 0, 195);
+}
+
+textarea {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    width: 60%;
+    outline: none;
+    resize: none;
+}
