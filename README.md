@@ -19,7 +19,8 @@ Don't worry, feel free to make mistakes. ;)
 
 Now, the simplified version of the folder scructure should look like this:
 
-global-chat
+
+**global-chat**
 
 ├── public
 
