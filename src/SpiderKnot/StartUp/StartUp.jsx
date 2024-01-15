@@ -7,7 +7,7 @@ const StartUp = ({setRoute}) => {
     const dispatch = useDispatch()
 
     useEffect(()=>{
-        fetch("https://global-chat-api.onrender.com")
+        fetch("http://localhost:1234/")
             .then(response => response.json())
             .then((data) => {
                 dispatch(messageActions.setMessages(data))

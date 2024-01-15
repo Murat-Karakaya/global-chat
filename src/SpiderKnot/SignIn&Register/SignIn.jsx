@@ -22,7 +22,7 @@ const SignIn = ({setRoute}) => {
         }
         setLoading(true);
         setInformation({message: "Processing, please wait", color: "black"})
-        fetch("https://global-chat-api.onrender.com/signin", {
+        fetch("http://localhost:1234/signin", {
             method: "post",
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify({

@@ -20,7 +20,7 @@ const Register = ({setRoute}) => {
         }
         setLoading(true)
         setInformation({message: "Processing, please wait", color: "black"})
-        fetch("https://global-chat-api.onrender.com/register", {
+        fetch("http://localhost:1234/register", {
             method: "post",
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify({
