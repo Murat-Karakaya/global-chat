@@ -1,2 +1,4 @@
 # Global Chat
-Global chat is a non-profit platform to communicate with others
+## About
+
+This website is not live anymore. Which is ok. I have much bigger plans (yay!)

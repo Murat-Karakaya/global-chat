@@ -21,8 +21,8 @@ const StartUp = ({setRoute}) => {
         <div id="startup" className="blurry-form">
             <h1 className="startup-title">Global Chat</h1>
             <p className="startup-p">  Global Chat is a non-profit platform where you can post questions for everyone to see. Don't hesitate to lend a helping hand or ask for assistance when you're feeling stuck. <br/><br/>
-            This project is open to all, so if you're interested in seeing it grow, you can check out its GitHub project repository <a href="#" target="_blank">here</a>.
-            <br/><br/> Also, you can see my github account from <a href="https://github.com/Murat-Karakaya" target="_blank">here</a></p>
+            This project is open to all, so if you're interested in seeing it grow, you can check out <a href="#" target="_blank">this website's GitHub repository</a>.
+            <br/><br/> Also, you can go to this page to see <a href="https://github.com/Murat-Karakaya" target="_blank">my github account</a>.</p>
             <button
              onClick={() => setRoute("sign in")}
              className="startup-button"
